@@ -6,7 +6,24 @@
 -->
 <html>
 <head>
-    <title>About me</title>
+    <style>
+        .hovering li {
+            overflow: hidden;
+            background-color: black;
+        }
+
+        .hovering img {
+            transform: scale(1.20);
+            opacity: 0.7;
+            transition: opacity 0.4s, transform 0.4s;
+        }
+
+        .hovering img:hover {
+            transform: scale(1.03);
+            opacity: 1;
+        }
+    </style>
+    <title>Buy me a coffee!!!</title>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
     <link rel="stylesheet" href="assets/css/main.css" />
@@ -22,7 +39,7 @@
 
             <!-- Logo -->
             <a href="index.html" class="logo">
-                <span class="symbol"><img src="images/orangutan.png" alt="" /></span><span class="title">Samuel Ramírez</span>
+                <span class="symbol"><img src="images/BuyMeCoffee/emojiCoffee.png" alt="" /></span><span class="title">Buy me a coffee!!!</span>
             </a>
 
             <!-- Nav -->
@@ -39,26 +56,28 @@
     <nav id="menu">
         <h2>Menu</h2>
         <ul>
-            <li><a href="../index.html">Home</a></li>
-            <li><a href="../aboutMe.html">About me!</a></li>
-            <li><a href="../BuyMeACoffee.html">Buy me coffee!</a></li>
-            <li><a href="../Fun.html">Fun!</a></li>
-            <li><a href="../elements.html">Elements</a></li>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="aboutMe.html">About me!</a></li>
+            <li><a href="BuyMeACoffee.html">Buy me coffee!</a></li>
+            <li><a href="Fun.html">Fun!</a></li>
+            <li><a href="elements.html">Elements</a></li>
         </ul>
     </nav>
 
     <!-- Main -->
     <div id="main">
         <div class="inner">
-            <h1>About me</h1>
-            <span class="image main"><img src="images/pic13.jpg" alt="" /></span>
-            <p>My favorite band is Rabbid Fish</p>
-            <p>My favorite video-game is Metal Gear Solid</p>
-            <p>I love spider man</p>
-            <h1>Past Jobs</h1>
-            <p>Produce Clerk</p>
-            <p>Waiter</p>
-            <p>Assistant cook</p>
+            <div class ="hovering">
+                <ul>
+                    <li>
+            <span class="image main"><a href="https://www.buymeacoffee.com/k8mmmrbhtj9"><img src="images/BuyMeCoffee/coffee.png" alt=""
+
+
+
+            ></a></span>
+                    </li>
+                </ul>
+            </div>
         </div>
     </div>
 
